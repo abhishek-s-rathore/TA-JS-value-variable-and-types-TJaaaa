@@ -24,20 +24,20 @@ alert(firstName + " " + lastName);
 const fullName = firstName + " " + lastName;
 
 // Declare three variables `name,` `newUser` and `isAdmin`.
-let name, userName, isAdmin;
+let name, newUser, isAdmin;
 
 // Assign your name as the value of `name`.
 name = "Abhishek Singh Rathore";
 
 // Assign the value of `name` to `newUser`.
-userName = name;
+newUser = name;
 
 // Set the value of `isAdmin` to `true`.
 isAdmin = true;
 
 // Alert the values of all the three variables.
 alert(name);
-alert(userName);
+alert(newUser);
 alert(isAdmin);
 
 
@@ -53,7 +53,7 @@ wiseMan = "Samwell Tarly";
 
 // Declare a variable `userName` with value "Lysa Arryn"
 
-userName = "Lysa Arryn";
+var userName = "Lysa Arryn";
 
 
 // Declare a variable named `oddNumber` and assign a value `57`.
