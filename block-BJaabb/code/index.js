@@ -6,27 +6,27 @@
 4. Now change the value of `user` to `John` and log the value of both `user` and `userName`.
 */
 
-// let user = prompt(`Enter Your Name: `);
-// alert(user);
+let user = prompt(`Enter Your Name: `);
+alert(user);
 
-// let userName = user;
-// console.log(user);
-// console.log(userName);
+let userName = user;
+console.log(user);
+console.log(userName);
 
-// let age = 22,
-//   isLearning = true;
+let age = 22,
+  isLearning = true;
 
-// user = `John`;
-// console.log(user);
-// console.log(userName);
+user = `John`;
+console.log(user);
+console.log(userName);
 
 /* 2.
 Use `prompt` to take two numbers from user and store it in variable `numA` and `numB`. Create a third variable called `sum`, using `+` operator add numA and numB , store it in varible `sum` and using alert display `sum` in browser.
 */
-// let numA = Number(prompt(`Enter first number: `));
-// let numB = Number(prompt(`Enter second number: `));
-// let sum = numA + numB;
-// document.write(`Sum is ${sum}`);
+let numA = Number(prompt(`Enter first number: `));
+let numB = Number(prompt(`Enter second number: `));
+let sum = numA + numB;
+document.write(`Sum is ${sum}`);
 
 // Loops
 
@@ -73,17 +73,15 @@ console.log(string2);
 
 
 Example:
-
 21, 21; // true
 "hello", -21; // false
-
 */
 
-let valueA = Number(prompt(`Enter first value: `));
-let valueB = Number(prompt(`Enter second value: `));
+let num1 = Number(prompt(`Enter first value: `));
+let num2 = Number(prompt(`Enter second value: `));
 
-if (valueA === valueB) {
-  alert(true);
-} else if (valueA !== valueB) {
-  alert(false);
+if (isNaN(num1) || isNaN(num2)) {
+  alert(`Enter a valid number!`);
+} else {
+  alert(num1 === num2);
 }
